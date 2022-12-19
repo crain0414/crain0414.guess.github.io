@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게스 리뉴얼 포트폴리오</title>
+
+    <link rel="stylesheet" href="css/pc.css" type="text/css">
+    <link rel="stylesheet" href="css/note.css" type="text/css">
+    <link rel="stylesheet" href="css/tab.css" type="text/css">
+    <link rel="stylesheet" href="css/mo.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+
+        @font-face{
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            src: url(font/Cafe24Ssurround);
+        }
+
+    </style>
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/js.js"></script>
+
+</head>
+<body>
+
+    <div id="wrap">
+
+        <nav></nav>
+
+        <!-- header -->
+
+        <header>
+
+            <div id="in_header">
+
+                <div id="logo"><a href="#sec01">
+                    <img src="img/sec01_logo.png" alt="로고이미지">
+                </a></div>
+                 
+                <ul id="menu_wrap">
+                    <li><a href="#">WOMEN</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">OUTERWEAR</a></li>
+                            <li><a href="#">T-SHIRT</a></li>
+                            <li><a href="#">SHIRTS/SWERATER</a></li>
+                            <li><a href="#">DRESS/SKIRT</a></li>
+                            <li><a href="#">PANTS/SHORTS</a></li>
+                            <li><a href="#">DENIM</a></li>
+                            <li><a href="#">ACC</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">MEN</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">OUTERWEAR</a></li>
+                            <li><a href="#">T-SHIRT</a></li>
+                            <li><a href="#">SHIRTS/SWERATER</a></li>
+                            <li><a href="#">PANTS/SHORTS</a></li>
+                            <li><a href="#">DENIM</a></li>
+                            <li><a href="#">ACC</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">COLLECTIONS</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">22'FW SUZY</a></li>
+                            <li><a href="#">GO X BATMAN</a></li>
+                            <li><a href="#">GO X J BALMIN</a></li>
+                            <li><a href="#">22'GUESS ORIGINALS</a></li>
+                            <li><a href="#">22'FW POP</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">DENIM</a>
+                        <ul class="sub_menu">
+                            <strong><li><a href="여성">WOMEN</a></li></strong>
+                            <li><a href="#">STRAIGHT</a></li>
+                            <li><a href="#">BOOTCUT</a></li>
+                            <li><a href="#">BOYFRIEND</a></li>
+                            <li><a href="#">WIDE</a></li>
+                            <li><a href="#">MOM</a></li>
+                            <li><a href="#">SKINNY</a></li>
+                            <li><a href="#">SHORTS</a></li>
+                            <li><a href="#">SKIRT</a></li>
+                            <li><a href="#">DRESS</a></li>
+                            <li><a href="#">JUMPSUIT</a></li>
+                        </ul>
+                        <ul class="sub_menu">
+                            <strong><li><a href="남성">MEN</a></li></strong>
+                            <li><a href="#">STRAIGHT</a></li>
+                            <li><a href="#">TAPER</a></li>
+                            <li><a href="#">NEW FIT</a></li>
+                            <li><a href="#">SKINNY</a></li>
+                            <li><a href="#">SHORTS</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">BAG</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">MAIN'S BAG</a></li>
+                            <li><a href="#">HANDBAG</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- mobile -->
+                
+                <div id="mo_wrap">
+
+                    <input type="checkbox" id="menuicon">
+                    <label for="menuicon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="sidebar">
+
+                        <ul id="mo_menu_wrap">
+                            <li class="top_menu"><a href="#">WOMEN</a>
+                                <ul class="mo_sub_menu">
+                                    <li><a href="#">OUTERWEAR</a></li>
+                                    <li><a href="#">T-SHIRT</a></li>
+                                    <li><a href="#">SHIRTS/SWERATER</a></li>
+                                    <li><a href="#">DRESS/SKIRT</a></li>
+                                    <li><a href="#">PANTS/SHORTS</a></li>
+                                    <li><a href="#">DENIM</a></li>
+                                    <li><a href="#">ACC</a></li>
+                                </ul>
+                            </li>
+        
+                            <li class="top_menu"><a href="#">MEN</a>
+                                <ul class="mo_sub_menu">
+                                    <li><a href="#">OUTERWEAR</a></li>
+                                    <li><a href="#">T-SHIRT</a></li>
+                                    <li><a href="#">SHIRTS/SWERATER</a></li>
+                                    <li><a href="#">PANTS/SHORTS</a></li>
+                                    <li><a href="#">DENIM</a></li>
+                                    <li><a href="#">ACC</a></li>
+                                </ul>
+                            </li>
+        
+                            <li class="top_menu"><a href="#">COLLECTIONS</a>
+                                <ul class="mo_sub_menu">
+                                    <li><a href="#">22'FW SUZY</a></li>
+                                    <li><a href="#">GO X BATMAN</a></li>
+                                    <li><a href="#">GO X J BALMIN</a></li>
+                                    <li><a href="#">22'GUESS ORIGINALS</a></li>
+                                    <li><a href="#">22'FW POP</a></li>
+                                </ul>
+                            </li>
+        
+                            <li class="top_menu"><a href="#">DENIM</a>
+                                <ul class="mo_sub_menu">
+                                    <strong><li><a href="여성">WOMEN</a></li></strong>
+                                    <li><a href="#">STRAIGHT</a></li>
+                                    <li><a href="#">BOOTCUT</a></li>
+                                    <li><a href="#">BOYFRIEND</a></li>
+                                    <li><a href="#">WIDE</a></li>
+                                    <li><a href="#">MOM</a></li>
+                                    <li><a href="#">SKINNY</a></li>
+                                    <li><a href="#">SHORTS</a></li>
+                                    <li><a href="#">SKIRT</a></li>
+                                    <li><a href="#">DRESS</a></li>
+                                    <li><a href="#">JUMPSUIT</a></li>
+                                </ul>
+                                <ul class="mo_sub_menu">
+                                    <strong><li><a href="남성">MEN</a></li></strong>
+                                    <li><a href="#">STRAIGHT</a></li>
+                                    <li><a href="#">TAPER</a></li>
+                                    <li><a href="#">NEW FIT</a></li>
+                                    <li><a href="#">SKINNY</a></li>
+                                    <li><a href="#">SHORTS</a></li>
+                                </ul>
+                            </li>
+        
+                            <li class="top_menu"><a href="#">BAG</a>
+                                <ul class="mo_sub_menu">
+                                    <li><a href="#">MAIN'S BAG</a></li>
+                                    <li><a href="#">HANDBAG</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="line"></div>
+
+                <ul id="menu_wrap02">
+                    <li><a href="#">PROMORION</a>
+                        <ul class="sub_menu"></ul>
+                    </li>
+
+                    <li><a href="#">EVENT</a>
+                        <ul class="sub_menu"></ul>
+                    </li>
+
+                    <li><a href="#">DENIM FIF</a>
+                        <ul class="sub_menu"></ul>
+                    </li>
+
+                </ul>
+
+                <div id="con_wrap">
+
+                    <div class="icon" id="icon_left">
+                        <a href="#">
+                         <img src="img/sec01_search-icon.png" alt="검색 아이콘">
+                        </a>
+                   </div>
+    
+                    <div class="icon" id="icon_right">
+                        <a href="#">
+                         <img src="img/sec01-mypage-icon.png" alt="마이페이지 아이콘">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+
+        <!-- section01 -->
+
+        <section id="sec01">
+
+            <div id="img_wrap">
+                <img src="img/sec01_main1.jpg" alt="메인이미지-1">
+                <img src="img/sec01_main2.jpg" alt="메인이미지-2">
+                <img src="img/sec01_main3.jpg" alt="메인이미지-3">
+                <img src="img/sec01_main4.jpg" alt="메인이미지-4">
+            </div>
+
+            <div class="slider_wrap" id="left">
+                <img src="img/sec01_silder_left.png" alt="SEC01_슬라이드버튼_왼쪽">
+            </div>
+            <div class="slider_wrap" id="right">
+                <img src="img/sec01_silder_right.png" alt="SEC01_슬라이드버튼_오른쪽">
+            </div>
+
+            <div id="top_btn"><a href="#">TOP</a></div>
+            
+        </section>
+
+        <!-- section02 -->
+
+        <section id="sec02">
+
+            <div class="title02" data-aos="fade-right">New</br>Product</div>
+
+            <div class="btn">
+                <div class="silder_wrap02" id="btn_left">
+                    <img src="img/sec01_slider_left.jpg" alt="SEC02_슬라이드버튼_왼쪽">
+                </div>
+
+                <div class="silder_wrap02" id="btn_right">
+                    <img src="img/sec01_slider_right.jpg" alt="SEC02_슬라이드버튼_오른쪽">
+                </div>
+            </div>
+
+            <div id="bg02">
+
+                <div id="container02">
+
+                    <div class="con_wrap02">
+                        <div class="con02">
+                            <img src="img/sec02_con01.jpg" alt="여성몽글 스웨터 풀오버">
+                            <p>여성몽글 스웨터 풀오버 </br> <strike>118,000</strike> 106,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con02.jpg" alt="여성 와이드 코듀로이">
+                            <p>여성 와이드 코듀로이 </br> 168,000</P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con03.jpg" alt="여성 와이드 립 카라 숏 다운">
+                            <p>여성 와이드 립 카라 숏 다운 </br> <strike>298,000</strike> 268,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con01-4.jpg" alt="여성 날개사 스웨터 가디건">
+                            <p>여성 날개사 스웨터 가디건 </br> <strike>168,000</strike> 151,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con02-5.jpg" alt="여성 V넥 스웨터 풀오버">
+                            <p>여성 V넥 스웨터 풀오버 </br> <strike>78,000</strike> 70,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con03-6.jpg" alt="여성 코듀로이 숏 푸퍼 다운">
+                            <p>여성 코듀로이 숏 푸퍼 다운 </br> <strike>278,000</strike> 250,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con1-7.jpg" alt="남성 체크 뽀글이 다운 점퍼">
+                            <p>남성 체크 뽀글이 다운 점퍼 </br> <strike>248,000</strike> 223,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con2-8.jpg" alt="여성 에코레더 숏 푸퍼 다운">
+                            <p>여성 에코레더 숏 푸퍼 다운 </br> <strike>238,000</strike> 214,200 <span>10%</span></P>
+                        </div>
+
+                        <div class="con02">
+                            <img src="img/sec02_con3-9.jpg" alt="여성 하운즈투스 스웨터 가디건">
+                            <p>여성 하운즈투스 스웨터 가디건 </br> <strike>148,000</strike> 133,200 <span>10%</span></P>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div> 
+        </section>
+
+        <!-- section03 -->
+        <section id="sec03">
+
+            <div class="title03" data-aos="fade-up">Guess Information</div>
+
+            <div id="bg03"></div>
+
+            <div id="container03">
+
+                <div class="con_wrap03" data-aos="fade-right"> 
+                    <div class="con03">
+                        <img src="img/sec03_con01.jpg" alt="게스 정보1">
+                    </div>
+
+                    <div class="p_wrap03">
+                        <p>GUESS ORIGINALS X BETTY BOOP</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap03" data-aos="fade-left">
+                    <div class="con03">
+                        <img src="img/sec03_con02.jpg" alt="게스 정보2">
+                    </div>
+
+                    <div class="p_wrap03">
+                        <p>GUESS ORIGINALS X BATMAN</p> 
+                    </div>
+                </div>
+
+                <div class="con_wrap03" data-aos="fade-right">
+                    <div class="con03">
+                        <img src="img/sec03_con03.jpg" alt="게스 정보3">
+                    </div>
+
+                    <div class="p_wrap03">
+                        <p>이월 핸드백 시즌오프 + 추가 15%쿠폰</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap03" data-aos="fade-left">
+                    <div class="con03">
+                        <img src="img/sec03_con04.jpg" alt="게스 정보4">
+                    </div>
+
+                    <div class="p_wrap03">
+                        <p>온라인 단독상품 기간한정 20%</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- section04 -->
+        <section id="sec04">
+
+            <div class="title04" data-aos="fade-right">22 Fall Collection With Suzy</div>
+
+            <p>이번 가을 컬렉션의 컨셉은 #DOTD(Denim of the Day)로,<br/>
+            다양한 라인의 데님과 함께 고급스럽고 차분하게 표현한 데일리룩을 제안합니다.</p>
+
+            <div id="container04">
+
+                <div class="con_wrap04">
+
+                    <div class="con04" data-aos="flip-left">
+                        <img src="img/sec04_con01.jpg" alt="지그재그 폴라 스웨터">
+                    </div>
+
+                    <div id="text01">
+                        <div class="sub_text">지그재그 폴라 스웨터</div>
+
+                        <p>유니크한 조직짜임으로 단품착용에도 포인트가 되어주는 풀오버 아이템입니다.</p></br>
+                        <p>세미크롭 기장감으로 다양한 하의와 군더더기 없이 매치하기 좋으며,</p>
+                        <p>두께감있는 모혼방 원사를 사용하여 윈터시즌까지 사용하기 좋습니다.</p></br>
+                        <P>흔하지 않은 패턴과 디자인으로 소장가치를 높여준 상품입니다.</P>
+                    </div>
+
+                    <div class="sub_title04" >Denim Of The Day</div>
+
+                </div>
+
+                <div class="con_wrap04">
+
+                    <div id="text02">
+                        <div class="sub_text">에코퍼 카라 스웨터 가디건</div>
+
+                        <p>볼륨감 있는 에코퍼 넥카라 디테일로 고급스러움을 더한 골지 가디건입니다.</p></br>
+                        <p>부드럽고 유연한 원단으로 슬림한 라인을 연출해주면, 적당한 기장감으로 </br>
+                            다양한 하의와 매치하기 좋습니다.</p></br>
+                        <p>퍼 디테일은 탈부착이 가능하도록 제작되어 코디의 활용도를 더축 높였으며,
+                        YM3S1671상품과 셋업으로 착장 가능한 아이템입니다.</p>
+                    </div>
+
+                    <div class="con04" data-aos="flip-right">
+                        <img src="img/sec04_con02.jpg" alt="에코퍼 카라 스웨터 가디건">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- section05 -->
+        <section id="sec05">
+
+            <div id="container05">
+
+                <div id="more"><a href="#"><strong>MORE</strong></a></div>
+
+                <div id="con_wrap05">
+    
+                    <div class="con05" data-aos="flip-up">
+                        <img src="img/sec05_con01.jpg" alt="회색가디건">
+                    </div>
+    
+                    <div class="con05" data-aos="flip-up">
+                        <img src="img/sec05_con02.jpg" alt="검정가죽자켓">
+                    </div>
+    
+                    <div class="con05" data-aos="flip-up">
+                        <img src="img/sec05_con03.jpg" alt="연노랑패딩">
+                    </div>
+    
+                    <div class="con05" data-aos="flip-up">
+                        <img src="img/sec05_con04.jpg" alt="화이트데님가디건">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- section06 -->
+        <section id="sec06">
+
+            <div class="title06" data-aos="fade-up">Guess Pick</div>
+
+            <div id="container06">
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con01.jpg" alt="여성 트위드 자켓">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 트위드 자켓</p>
+                        <p>328,000</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con02.jpg" alt="남녀공용 후드 클린 롱다운점퍼">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀공용 후드 클린 롱다운점퍼</p>
+                        <p>358,000</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con03.jpg" alt="남녀공용 다이아 퀼팅 스탠넥 롱 점퍼">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀공용 다이아 퀼팅 스탠넥 롱 점퍼</p>
+                        <p>198,000</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con04.jpg" alt="남녀 울믹스 패딩 봄버">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀 울믹스 패딩 봄버</p>
+                        <p><strike>278,000</strike> 250,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con05.jpg" alt="여성 에코레더 숏 푸퍼 다운">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 에코레더 숏 푸퍼 다운</p>
+                        <p><strike>238,000</strike> 214,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con06.jpg" alt="여성 바디컨시어스 벨티드 숏 구스">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 바디컨시어스 벨티드 숏 구스</p>
+                        <p>278,000</p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con07.jpg" alt="남녀공용 GO 코듀로이 버킷햇">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀공용 GO 코듀로이 버킷햇</p>
+                        <p><strike>58,000</strike> 52,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con08.jpg" alt="여성 삼각로고 에코퍼 버킷햇">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 삼각로고 에코퍼 버킷햇</p>
+                        <p><strike>68,000</strike> 61,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con09.jpg" alt="여성 삼각 메칼로고 베레모">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 삼각 메칼로고 베레모</p>
+                        <p><strike>48,000</strike> 43,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con10.jpg" alt="남녀공용 뽀글이 볼캡">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀공용 뽀글이 볼캡</p>
+                        <p><strike>68,000</strike> 61,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con11.jpg" alt="남녀공용 GUESS 자수 비니">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>남녀공용 GUESS 자수 비니</p>
+                        <p><strike>38,000</strike> 34,200 <span>10%</span></p>
+                    </div>
+                </div>
+
+                <div class="con_wrap06">
+                    <div class="con06">
+                        <img src="img/sec06_con12.jpg" alt="여성 바라클라바">
+                    </div>
+
+                    <div class="p_wrap">
+                        <p>여성 바라클라바</p>
+                        <p><strike>68,000</strike> 61,200 <span>10%</span></p>
+                    </div>
+                </div>
+            </div> 
+
+            <div id="more_box">NEXT</div>
+        </section>
+
+        <!-- section07 -->
+
+        <section id="sec07">
+
+            <div class="title07" data-aos="fade-right">Guess News</div>
+
+            <div id="container07">
+
+                <div class="con_wrap07" data-aos="zoom-in">
+                    <div class="con07">
+                        <img src="img/sec07_con01.png" alt="일주일간의 더블혜택">
+                    </div>
+                </div>
+
+                <div class="con_wrap07" data-aos="zoom-in">
+                    <div class="con07">
+                        <img src="img/sec07_con02.png" alt="겨울상품할인이벤트">
+                    </div>
+                </div>
+
+                <div class="con_wrap07" data-aos="zoom-in">
+                    <div class="con07">
+                        <img src="img/sec07_con03.png" alt="신규가입혜택">
+                    </div>
+                </div>
+            </div>
+
+            <!-- mo_event -->
+            <div class="con_wrap07-1">
+                <div class="con07-1" data-aos="flip-up">
+                    <img src="img/sec07_con03-1.png" alt="모바일버전 일주일간의 더블혜택">
+                </div>
+
+                <div class="con07-1" data-aos="flip-up">
+                    <img src="img/sec07_con03-2.png" alt="모바일버전 겨울상품할인이벤트">
+                </div>
+
+                <div class="con07-1" data-aos="flip-up">
+                    <img src="img/sec07_con03-3.png" alt="모바일버전 신규가입혜택">
+                </div>
+        
+            </div>
+
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div id="in_footer">
+
+                <div class="footer_wrap left">
+
+                    <ul class="li_wrap">
+                        <li>회사소개</li>
+                        <li>매장안내</li>
+                        <li>개인정보처리방침</li>
+                        <li>이용약관</li>
+                        <li>고객센터</li>
+                    </ul>
+
+                    <P>게스홀딩스코리아유한회사   서울특별시 강남구 테헤란로 534 글라스타워 28층   대표이사:제임스윤영박</P>
+                    <P>사업자등록번호: 211-87-83034   통신판매업 신고: 2013-서울강남-01681</P>
+        
+                    <div class="footer_box"><P>사업자정보확인</P></div>
+        
+                    <div class="footer_box"><p>에스크로 서비스 가입 확인</p></div>
+
+                </div>
+
+                <div class="footer_wrap right">
+
+                    <p>쇼핑몰 관련문의: <span>1544-7665</span> (주문,배송문의) AM 10:00 ~ PM 5:00 대표메일주소 : guessmail@guesskorea.com</br>
+                        게스코리아 대표번호: 080-001-2220 AM 10:00 ~ PM 5:00 카카오톡 상담: @게스코리아 (A/S문의만 가능)</p>
+        
+                    <P>COPYRIGHT (C) GUESSKOREA. ALL RIGHTS RESERVED.</P>
+
+                    <div id="sns_box">
+                        <div class="sns_icon"><a href="https://instagram.com/guess?igshid=YmMyMTA2M2Y=">
+                            <img src="img/sns_icon01.png" alt="인스타그램 바로가기">
+                        </a></div>
+        
+                        <div class="sns_icon"><a href="#">
+                            <img src="img/sns_icon02.png" alt="페이스북 바로가기">
+                        </a></div>
+        
+                        <div class="sns_icon"><a href="https://m.blog.naver.com/guess_korea?proxyReferer=https%3A%2F%2Fwww.guesskorea.com%2F">
+                            <img src="img/sns_icon03.png" alt="블로그 바로가기">
+                        </a></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
